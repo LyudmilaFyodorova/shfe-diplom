@@ -1,0 +1,41 @@
+@media (min-width: 391px) and (max-width: 768px) {
+
+    .main_background {
+        min-width: 391px;
+        max-width: 768px;
+        width: 100%;
+        min-height: 640px;
+    }
+
+    .hall {
+        width: 391px;
+        height: 573px;
+    }
+
+    h1 {
+        width: 391px;
+    }
+
+    .buying__info-hint {
+        display: flex;
+    }
+
+    .tap {
+        width: 24px;
+        height: 32px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+
+    .tap_text {
+        color: #000000;
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        display: block;
+        width: 100px;
+        height: 64px;
+        padding: 16px;
+    }
+}

@@ -1,0 +1,52 @@
+@media (max-width: 390px) {
+    .main_background {
+        max-width: 390px;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .hall {
+        max-width: 390px;
+        width: 100%;
+        height: 573px;
+    }
+
+    h1 {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .buying__info-hint {
+        display: flex;
+    }
+
+    .tap {
+        width: 24px;
+        height: 32px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+
+    .tap_text {
+        color: #000000;
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        display: block;
+        width: 100px;
+        height: 64px;
+        padding: 16px;
+    }
+
+    .screen {
+        max-width: 284px;
+        width: 100%;
+    }
+
+    .book_button {
+        max-width: 232px;
+        width: 100%;
+    }
+
+}
