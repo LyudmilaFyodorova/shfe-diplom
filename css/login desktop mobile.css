@@ -1,0 +1,21 @@
+@media (max-width: 390px) {
+
+    .main_background {
+        max-width: 390px;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .login_form {
+        width: 100%
+    }
+
+    .email_field,
+    .password_field {
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+    }
+}

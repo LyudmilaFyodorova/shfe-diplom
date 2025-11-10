@@ -1,0 +1,17 @@
+@media (min-width: 391px) and (max-width: 768px) {
+
+    .main_background {
+        min-width: 391px;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .date_navigation,
+    .movie_list {
+        width: 100%;
+    }
+}

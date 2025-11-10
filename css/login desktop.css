@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+
+.main_background {
+    background-image: url("../img/background_admin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+    box-sizing: border-box;
+
+    color: #ffffff;
+
+    position: relative;
+
+    z-index: 0;
+}
+
+.main_background:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.5;
+
+    z-index: -1;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
+.header {
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 0 14px 14px;
+}
+
+.main_title {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 34px;
+    display: block;
+}
+
+.v_letter {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.sub_title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.login_form {
+    max-width: 480px;
+    height: 294px;
+    margin: auto;
+}
+
+.heading {
+    width: 100%;
+    height: 57px;
+    background-color: #63536C;
+    display: flex;
+}
+
+.login_title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: auto;
+}
+
+.email_area {
+    width: 100%;
+    height: 237px;
+    background-color: #EAE9EBF2;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 5px;
+}
+
+.email_field,
+.password_field {
+    width: 272px;
+    height: 36px;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+
+}
+
+label {
+    display: block;
+    width: 272px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    color: #848484;
+    margin: auto;
+}
+
+.authorize_button {
+    width: 189px;
+    height: 40px;
+    margin: 15px auto;
+    background-color: #16A6AF;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.12);
+    text-transform: uppercase;
+}
+
+.authorize_button:hover {
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.24);
+}

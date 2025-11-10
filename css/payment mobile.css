@@ -1,0 +1,17 @@
+@media (max-width: 390px) {
+
+    .main_background {
+        max-width: 390px;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .header {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .booking_code_button {
+        width: 100%;
+    }
+}

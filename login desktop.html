@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login desktop.css">
+    <link rel="stylesheet" href="css/login desktop tablet.css" @media (min-width: 391px) and (max-width: 768px)>
+    <link rel="stylesheet" href="css/login desktop mobile.css" @media (max-width: 390px)>
+</head>
+
+<body>
+    <div class="main_background">
+        <header class="header">
+            <h1>
+                <a class="main_title">Идём<span class="v_letter">в</span>кино</a>
+            </h1>
+            <p class="sub_title">Администраторррская</p>
+        </header>
+        <main class="login_form">
+            <div class="heading">
+                <h2 class="login_title">Авторизация</h2>
+            </div>
+            <div class="email_area">
+                <form class="auth_form">
+                    <label for="email_field">E-mail</label>
+                    <input type="email" class="email_field" name="email" required
+                        placeholder="Email: example@domain.xyz">
+                    <label for="password_field">Пароль</label>
+                    <input type="password" class="password_field" name="password">
+                    <button class="authorize_button" type="button">Авторизоваться</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
